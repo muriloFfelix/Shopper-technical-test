@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  text-align: start;
+}
+
+.approved {
+  border-style: solid;
+  border-color: rgba(107, 255, 144);
+  background-color: rgba(107, 255, 144, 0.404);
+}
+
+.rejected {
+  border-style: solid;
+  border-color: rgb(255, 105, 105);
+  background-color: rgba(255, 107, 107, 0.315);
+}
